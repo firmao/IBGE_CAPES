@@ -1,0 +1,101 @@
+query_id,domain,query,baseline_hallucination,hybrid_hallucination
+1,Humanities,Which institutions provided the data for Digital History research?,True,True
+2,Humanities,List all researchers associated with Archaeology in the SSHOC-NL.,True,True
+3,Social Sciences,Identify the persistent identifiers (PIDs) for Urban Planning assets.,True,True
+4,Materials Science,Identify the persistent identifiers (PIDs) for Metallurgy assets.,True,True
+5,Humanities,What are the metadata standards for Archaeology in the GCN?,True,True
+6,Materials Science,Identify the persistent identifiers (PIDs) for Crystallography assets.,True,False
+7,Social Sciences,List all researchers associated with Demographics in the SSHOC-NL.,True,False
+8,Social Sciences,Show me the FAIR quality score for Demographics datasets.,True,False
+9,Social Sciences,What are the metadata standards for Public Policy in the GCN?,True,False
+10,Social Sciences,Show me the FAIR quality score for Economics datasets.,True,False
+11,Materials Science,Identify the persistent identifiers (PIDs) for Crystallography assets.,True,False
+12,Humanities,What are the metadata standards for Literature in the GCN?,True,False
+13,Materials Science,Show me the FAIR quality score for Crystallography datasets.,True,False
+14,Humanities,List all researchers associated with Literature in the SSHOC-NL.,True,False
+15,Social Sciences,List all researchers associated with Demographics in the SSHOC-NL.,True,False
+16,Materials Science,Which institutions provided the data for Crystallography research?,True,False
+17,Materials Science,Which institutions provided the data for Polymers research?,True,False
+18,Materials Science,Which institutions provided the data for Crystallography research?,True,False
+19,Social Sciences,List all researchers associated with Urban Planning in the SSHOC-NL.,True,False
+20,Materials Science,What are the metadata standards for Crystallography in the GCN?,True,False
+21,Social Sciences,List all researchers associated with Demographics in the SSHOC-NL.,True,False
+22,Materials Science,Which institutions provided the data for Crystallography research?,True,False
+23,Humanities,What are the metadata standards for Digital History in the GCN?,True,False
+24,Humanities,Which institutions provided the data for Archaeology research?,True,False
+25,Materials Science,What are the metadata standards for Crystallography in the GCN?,True,False
+26,Humanities,What are the metadata standards for Literature in the GCN?,True,False
+27,Humanities,What are the metadata standards for Archaeology in the GCN?,True,False
+28,Humanities,Identify the persistent identifiers (PIDs) for Literature assets.,True,False
+29,Materials Science,List all researchers associated with Nanomaterials in the SSHOC-NL.,False,False
+30,Humanities,Identify the persistent identifiers (PIDs) for Linguistics assets.,False,False
+31,Humanities,Show me the FAIR quality score for Linguistics datasets.,False,False
+32,Materials Science,Which institutions provided the data for Crystallography research?,False,False
+33,Materials Science,Identify the persistent identifiers (PIDs) for Crystallography assets.,False,False
+34,Social Sciences,Identify the persistent identifiers (PIDs) for Urban Planning assets.,False,False
+35,Social Sciences,What are the metadata standards for Economics in the GCN?,False,False
+36,Humanities,Which institutions provided the data for Digital History research?,False,False
+37,Social Sciences,Show me the FAIR quality score for Urban Planning datasets.,False,False
+38,Materials Science,List all researchers associated with Crystallography in the SSHOC-NL.,False,False
+39,Materials Science,Identify the persistent identifiers (PIDs) for Crystallography assets.,False,False
+40,Social Sciences,Identify the persistent identifiers (PIDs) for Economics assets.,False,False
+41,Social Sciences,List all researchers associated with Public Policy in the SSHOC-NL.,False,False
+42,Social Sciences,Show me the FAIR quality score for Demographics datasets.,False,False
+43,Materials Science,Show me the FAIR quality score for Nanomaterials datasets.,False,False
+44,Humanities,Which institutions provided the data for Literature research?,False,False
+45,Materials Science,What are the metadata standards for Crystallography in the GCN?,False,False
+46,Humanities,Show me the FAIR quality score for Archaeology datasets.,False,False
+47,Materials Science,Show me the FAIR quality score for Nanomaterials datasets.,False,False
+48,Humanities,Show me the FAIR quality score for Literature datasets.,False,False
+49,Social Sciences,List all researchers associated with Economics in the SSHOC-NL.,False,False
+50,Humanities,Identify the persistent identifiers (PIDs) for Linguistics assets.,False,False
+51,Social Sciences,Identify the persistent identifiers (PIDs) for Urban Planning assets.,False,False
+52,Materials Science,Which institutions provided the data for Nanomaterials research?,False,False
+53,Materials Science,What are the metadata standards for Nanomaterials in the GCN?,False,False
+54,Materials Science,Which institutions provided the data for Nanomaterials research?,False,False
+55,Social Sciences,Show me the FAIR quality score for Urban Planning datasets.,False,False
+56,Materials Science,Which institutions provided the data for Metallurgy research?,False,False
+57,Materials Science,What are the metadata standards for Polymers in the GCN?,False,False
+58,Humanities,What are the metadata standards for Digital History in the GCN?,False,False
+59,Social Sciences,List all researchers associated with Economics in the SSHOC-NL.,False,False
+60,Humanities,List all researchers associated with Digital History in the SSHOC-NL.,False,False
+61,Social Sciences,What are the metadata standards for Urban Planning in the GCN?,False,False
+62,Social Sciences,Show me the FAIR quality score for Public Policy datasets.,False,False
+63,Social Sciences,Identify the persistent identifiers (PIDs) for Urban Planning assets.,False,False
+64,Materials Science,Show me the FAIR quality score for Crystallography datasets.,False,False
+65,Social Sciences,Identify the persistent identifiers (PIDs) for Urban Planning assets.,False,False
+66,Humanities,What are the metadata standards for Digital History in the GCN?,False,False
+67,Materials Science,Show me the FAIR quality score for Polymers datasets.,False,False
+68,Humanities,List all researchers associated with Literature in the SSHOC-NL.,False,False
+69,Social Sciences,Which institutions provided the data for Economics research?,False,False
+70,Humanities,Which institutions provided the data for Linguistics research?,False,False
+71,Materials Science,Show me the FAIR quality score for Metallurgy datasets.,False,False
+72,Materials Science,List all researchers associated with Nanomaterials in the SSHOC-NL.,False,False
+73,Social Sciences,What are the metadata standards for Demographics in the GCN?,False,False
+74,Social Sciences,Show me the FAIR quality score for Public Policy datasets.,False,False
+75,Social Sciences,List all researchers associated with Urban Planning in the SSHOC-NL.,False,False
+76,Humanities,Which institutions provided the data for Digital History research?,False,False
+77,Humanities,List all researchers associated with Literature in the SSHOC-NL.,False,False
+78,Social Sciences,What are the metadata standards for Urban Planning in the GCN?,False,False
+79,Humanities,Which institutions provided the data for Linguistics research?,False,False
+80,Social Sciences,Which institutions provided the data for Economics research?,False,False
+81,Humanities,Show me the FAIR quality score for Linguistics datasets.,False,False
+82,Social Sciences,Identify the persistent identifiers (PIDs) for Economics assets.,False,False
+83,Social Sciences,List all researchers associated with Urban Planning in the SSHOC-NL.,False,False
+84,Humanities,List all researchers associated with Literature in the SSHOC-NL.,False,False
+85,Social Sciences,Show me the FAIR quality score for Economics datasets.,False,False
+86,Social Sciences,What are the metadata standards for Public Policy in the GCN?,False,False
+87,Humanities,Which institutions provided the data for Archaeology research?,False,False
+88,Humanities,What are the metadata standards for Archaeology in the GCN?,False,False
+89,Materials Science,What are the metadata standards for Nanomaterials in the GCN?,False,False
+90,Social Sciences,Identify the persistent identifiers (PIDs) for Economics assets.,False,False
+91,Materials Science,List all researchers associated with Crystallography in the SSHOC-NL.,False,False
+92,Humanities,Which institutions provided the data for Archaeology research?,False,False
+93,Social Sciences,Show me the FAIR quality score for Economics datasets.,False,False
+94,Social Sciences,What are the metadata standards for Demographics in the GCN?,False,False
+95,Social Sciences,Identify the persistent identifiers (PIDs) for Economics assets.,False,False
+96,Humanities,Show me the FAIR quality score for Linguistics datasets.,False,False
+97,Humanities,Show me the FAIR quality score for Archaeology datasets.,False,False
+98,Social Sciences,What are the metadata standards for Urban Planning in the GCN?,False,False
+99,Social Sciences,List all researchers associated with Demographics in the SSHOC-NL.,False,False
+100,Materials Science,Which institutions provided the data for Nanomaterials research?,False,False
