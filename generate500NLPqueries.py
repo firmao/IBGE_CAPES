@@ -1,7 +1,7 @@
 import csv
 import random
 
-def export_experimental_dataset(filename="query_dataset_500.csv"):
+def export_experimental_dataset(filename="query_dataset_200.csv"):
     domains = ["Social Sciences", "Humanities", "Materials Science"]
     topics = {
         "Social Sciences": ["Demographics", "Public Policy", "Urban Sociology", "Economic Trends", "Educational Equality"],
@@ -22,7 +22,7 @@ def export_experimental_dataset(filename="query_dataset_500.csv"):
     dataset = []
     seen = set()
 
-    while len(dataset) < 500:
+    while len(dataset) < 200:
         dom = random.choice(domains)
         top = random.choice(topics[dom])
         temp = random.choice(templates)
@@ -37,7 +37,7 @@ def export_experimental_dataset(filename="query_dataset_500.csv"):
         writer.writerow(["ID", "Domain", "Topic", "Natural_Language_Query"])
         writer.writerows(dataset)
     
-    print(f"Dataset with 500 queries exported to {filename}")
+    print(f"Dataset with 200 queries exported to {filename}")
 
 if __name__ == "__main__":
     export_experimental_dataset()

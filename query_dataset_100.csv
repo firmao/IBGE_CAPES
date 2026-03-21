@@ -1,0 +1,101 @@
+ID,Domain,Topic,Natural_Language_Query
+1,Social Sciences,Urban Sociology,Identify cross-domain links between Urban Sociology and other GCN nodes.
+2,Materials Science,Superconductors,Identify cross-domain links between Superconductors and other GCN nodes.
+3,Social Sciences,Economic Trends,Show metadata schemas used in Economic Trends projects.
+4,Humanities,Historical Linguistics,How is data provenance handled for Historical Linguistics in the GCN?
+5,Social Sciences,Economic Trends,Find interoperable vocabularies related to Economic Trends.
+6,Humanities,Digital History,Which institutions host the most reusable Digital History data?
+7,Humanities,Comparative Literature,Find interoperable vocabularies related to Comparative Literature.
+8,Social Sciences,Public Policy,List all SPARQL endpoints available for Public Policy research.
+9,Social Sciences,Economic Trends,What are the persistent identifiers for Economic Trends datasets?
+10,Materials Science,Superconductors,Retrieve the license information for Superconductors data assets.
+11,Social Sciences,Educational Equality,Retrieve the license information for Educational Equality data assets.
+12,Social Sciences,Urban Sociology,List all SPARQL endpoints available for Urban Sociology research.
+13,Humanities,Comparative Literature,What are the persistent identifiers for Comparative Literature datasets?
+14,Social Sciences,Educational Equality,Which institutions host the most reusable Educational Equality data?
+15,Materials Science,Polymers,Retrieve the license information for Polymers data assets.
+16,Humanities,Archaeology,Retrieve the license information for Archaeology data assets.
+17,Materials Science,Crystallography,What are the persistent identifiers for Crystallography datasets?
+18,Humanities,Comparative Literature,Show metadata schemas used in Comparative Literature projects.
+19,Social Sciences,Urban Sociology,Show metadata schemas used in Urban Sociology projects.
+20,Materials Science,Nanomaterials,Identify cross-domain links between Nanomaterials and other GCN nodes.
+21,Humanities,Comparative Literature,Which institutions host the most reusable Comparative Literature data?
+22,Humanities,Archaeology,Find interoperable vocabularies related to Archaeology.
+23,Materials Science,Polymers,Show metadata schemas used in Polymers projects.
+24,Materials Science,Crystallography,List all SPARQL endpoints available for Crystallography research.
+25,Materials Science,Metallurgy,Identify cross-domain links between Metallurgy and other GCN nodes.
+26,Social Sciences,Educational Equality,How is data provenance handled for Educational Equality in the GCN?
+27,Materials Science,Metallurgy,Which institutions host the most reusable Metallurgy data?
+28,Social Sciences,Educational Equality,List all SPARQL endpoints available for Educational Equality research.
+29,Materials Science,Nanomaterials,Retrieve the license information for Nanomaterials data assets.
+30,Materials Science,Superconductors,Which institutions host the most reusable Superconductors data?
+31,Materials Science,Polymers,List all SPARQL endpoints available for Polymers research.
+32,Humanities,Archaeology,Which institutions host the most reusable Archaeology data?
+33,Humanities,Comparative Literature,Identify cross-domain links between Comparative Literature and other GCN nodes.
+34,Materials Science,Polymers,Identify cross-domain links between Polymers and other GCN nodes.
+35,Materials Science,Polymers,What are the persistent identifiers for Polymers datasets?
+36,Social Sciences,Educational Equality,Identify cross-domain links between Educational Equality and other GCN nodes.
+37,Humanities,Digital History,How is data provenance handled for Digital History in the GCN?
+38,Social Sciences,Urban Sociology,Find interoperable vocabularies related to Urban Sociology.
+39,Humanities,Archaeology,List all SPARQL endpoints available for Archaeology research.
+40,Materials Science,Nanomaterials,List all SPARQL endpoints available for Nanomaterials research.
+41,Humanities,Renaissance Art,How is data provenance handled for Renaissance Art in the GCN?
+42,Social Sciences,Demographics,What are the persistent identifiers for Demographics datasets?
+43,Social Sciences,Public Policy,Find interoperable vocabularies related to Public Policy.
+44,Materials Science,Superconductors,How is data provenance handled for Superconductors in the GCN?
+45,Humanities,Comparative Literature,List all SPARQL endpoints available for Comparative Literature research.
+46,Social Sciences,Public Policy,What are the persistent identifiers for Public Policy datasets?
+47,Materials Science,Metallurgy,List all SPARQL endpoints available for Metallurgy research.
+48,Materials Science,Nanomaterials,How is data provenance handled for Nanomaterials in the GCN?
+49,Humanities,Comparative Literature,How is data provenance handled for Comparative Literature in the GCN?
+50,Materials Science,Crystallography,Identify cross-domain links between Crystallography and other GCN nodes.
+51,Materials Science,Crystallography,Which institutions host the most reusable Crystallography data?
+52,Humanities,Historical Linguistics,Find interoperable vocabularies related to Historical Linguistics.
+53,Materials Science,Crystallography,Show metadata schemas used in Crystallography projects.
+54,Humanities,Renaissance Art,List all SPARQL endpoints available for Renaissance Art research.
+55,Materials Science,Metallurgy,Show metadata schemas used in Metallurgy projects.
+56,Materials Science,Nanomaterials,What are the persistent identifiers for Nanomaterials datasets?
+57,Social Sciences,Urban Sociology,How is data provenance handled for Urban Sociology in the GCN?
+58,Humanities,Historical Linguistics,Show metadata schemas used in Historical Linguistics projects.
+59,Materials Science,Superconductors,List all SPARQL endpoints available for Superconductors research.
+60,Social Sciences,Economic Trends,Identify cross-domain links between Economic Trends and other GCN nodes.
+61,Materials Science,Nanomaterials,Show metadata schemas used in Nanomaterials projects.
+62,Humanities,Historical Linguistics,What are the persistent identifiers for Historical Linguistics datasets?
+63,Social Sciences,Urban Sociology,What are the persistent identifiers for Urban Sociology datasets?
+64,Materials Science,Superconductors,What are the persistent identifiers for Superconductors datasets?
+65,Materials Science,Superconductors,Find interoperable vocabularies related to Superconductors.
+66,Humanities,Historical Linguistics,Which institutions host the most reusable Historical Linguistics data?
+67,Humanities,Renaissance Art,Find interoperable vocabularies related to Renaissance Art.
+68,Materials Science,Nanomaterials,Find interoperable vocabularies related to Nanomaterials.
+69,Social Sciences,Educational Equality,Find interoperable vocabularies related to Educational Equality.
+70,Materials Science,Nanomaterials,Which institutions host the most reusable Nanomaterials data?
+71,Humanities,Historical Linguistics,List all SPARQL endpoints available for Historical Linguistics research.
+72,Humanities,Historical Linguistics,Retrieve the license information for Historical Linguistics data assets.
+73,Humanities,Digital History,Identify cross-domain links between Digital History and other GCN nodes.
+74,Social Sciences,Public Policy,Show metadata schemas used in Public Policy projects.
+75,Humanities,Renaissance Art,Which institutions host the most reusable Renaissance Art data?
+76,Humanities,Renaissance Art,Show metadata schemas used in Renaissance Art projects.
+77,Humanities,Renaissance Art,Identify cross-domain links between Renaissance Art and other GCN nodes.
+78,Materials Science,Polymers,Which institutions host the most reusable Polymers data?
+79,Materials Science,Metallurgy,Find interoperable vocabularies related to Metallurgy.
+80,Social Sciences,Educational Equality,What are the persistent identifiers for Educational Equality datasets?
+81,Social Sciences,Educational Equality,Show metadata schemas used in Educational Equality projects.
+82,Materials Science,Crystallography,Retrieve the license information for Crystallography data assets.
+83,Humanities,Renaissance Art,What are the persistent identifiers for Renaissance Art datasets?
+84,Materials Science,Crystallography,Find interoperable vocabularies related to Crystallography.
+85,Materials Science,Polymers,How is data provenance handled for Polymers in the GCN?
+86,Humanities,Digital History,Find interoperable vocabularies related to Digital History.
+87,Social Sciences,Economic Trends,List all SPARQL endpoints available for Economic Trends research.
+88,Humanities,Archaeology,What are the persistent identifiers for Archaeology datasets?
+89,Social Sciences,Urban Sociology,Retrieve the license information for Urban Sociology data assets.
+90,Social Sciences,Urban Sociology,Which institutions host the most reusable Urban Sociology data?
+91,Social Sciences,Economic Trends,How is data provenance handled for Economic Trends in the GCN?
+92,Social Sciences,Demographics,Identify cross-domain links between Demographics and other GCN nodes.
+93,Social Sciences,Demographics,Find interoperable vocabularies related to Demographics.
+94,Social Sciences,Public Policy,Which institutions host the most reusable Public Policy data?
+95,Materials Science,Crystallography,How is data provenance handled for Crystallography in the GCN?
+96,Social Sciences,Demographics,How is data provenance handled for Demographics in the GCN?
+97,Social Sciences,Public Policy,Retrieve the license information for Public Policy data assets.
+98,Social Sciences,Economic Trends,Retrieve the license information for Economic Trends data assets.
+99,Humanities,Digital History,Show metadata schemas used in Digital History projects.
+100,Social Sciences,Demographics,Retrieve the license information for Demographics data assets.
