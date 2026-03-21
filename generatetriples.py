@@ -4,7 +4,7 @@ from rdflib.namespace import FOAF, DCTERMS
 import random
 import os
 
-def generate_gcn_triples(output_file="gcn_1m_triples.nt", total_target=1000000):
+def generate_gcn_triples(output_file="gcn_1_5m_triples.nt", total_target=1500000):
     """
     Generates a National Knowledge Graph (GCN) with 1.5 million triples.
     Uses N-Triples format for memory efficiency and speed.
