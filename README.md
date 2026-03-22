@@ -40,8 +40,8 @@ This version is designed to be "plug-and-play" on any Python environment (Window
 git clone https://github.com/firmao/IBGE_CAPES.git
 cd IBGE_CAPES
 
-# Install lightweight dependencies
-pip install numpy matplotlib requests
+# Install dependencies
+pip install -r requirements.txt
 ```
 
 -----
