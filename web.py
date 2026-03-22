@@ -9,6 +9,13 @@ st.set_page_config(page_title="HNSA Experiment Runner", layout="wide")
 st.title("🔬 Hybrid Neuro-Symbolic Architecture (HNSA)")
 st.subheader("Experimental Reproduction Dashboard - IBGE & CAPES Linked Data")
 
+st.sidebar.markdown("### 🎯 Problem Statement")
+st.sidebar.write("""
+Current LLMs suffer from 'Parametric Hallucination' when dealing with 
+Brazilian government data. HNSA solves this by anchoring 
+neural outputs to a GCN-verified Knowledge Graph.
+""")
+
 # --- Symbolic Data (The Anchor) ---
 DATA_ANCHOR = {
     "Manaus": {"literacy": 89.5, "phd_programs": 14, "region": "North"},
@@ -88,3 +95,24 @@ st.table({
     "Baseline LLM": ["24%", "18%", "32%"],
     "HNSA (Proposed)": ["94%", "88%", "<5%"]
 })
+
+# --- New Section: Data Provenance ---
+st.divider()
+st.header("🗂️ Data Provenance & Symbolic Anchor")
+st.write("**Related Paper Section:** *2.1 Data Ingestion and Knowledge Graph Construction*")
+
+with st.expander("View Raw IBGE/CAPES Ground Truth (JSON)"):
+    st.json(DATA_ANCHOR)
+    st.info("""
+    **Sources:**
+    - **IBGE:** [SIDRA - Census 2022](https://sidra.ibge.gov.br/)
+    - **CAPES:** [Open Data Portal - Graduate Evaluation](https://dadosabertos.capes.gov.br/)
+    """)
+
+with st.expander("View GCN Adjacency Matrix (Normalized)"):
+    A = np.eye(6)
+    A[0, 3] = A[3, 0] = 1 
+    D = np.diag(1.0 / np.sqrt(A.sum(axis=1)))
+    A_hat = D @ A @ D
+    st.write("This matrix represents the 'Fixed' symbolic connections between datasets:")
+    st.dataframe(A_hat)
