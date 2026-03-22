@@ -54,7 +54,7 @@ To run the full suite (GCN link discovery visualization and grounded LLM inferen
 python allexperiments.py
 ```
 
-web interface:
+web interface (Preferable, with more information and more complete):
 ```bash
 streamlit run .\web.py
 ```
