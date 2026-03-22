@@ -57,7 +57,7 @@ python allexperiments.py
 web interface:
 ```bash
 streamlit run .\web.py
-```bash
+```
 
 ### Expected Output
 
