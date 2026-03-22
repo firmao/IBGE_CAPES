@@ -54,6 +54,11 @@ To run the full suite (GCN link discovery visualization and grounded LLM inferen
 python allexperiments.py
 ```
 
+web interface:
+```bash
+streamlit run .\web.py
+```bash
+
 ### Expected Output
 
 1.  **Visualization:** A Matplotlib window showing the semantic alignment of IBGE municipalities and CAPES research centers.
