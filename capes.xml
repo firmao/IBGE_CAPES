@@ -1,0 +1,2342 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<codeBook version="1.2.2" ID="BR-CAPES-BTD-2021A2024-2025-12-01" xml-lang="en" xmlns="http://www.icpsr.umich.edu/DDI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.icpsr.umich.edu/DDI http://www.icpsr.umich.edu/DDI/Version1-2-2.xsd">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>
+          [2021 a 2024] Catálogo de Teses e Dissertações da CAPES
+        </titl>
+        <IDNo>
+          DDI-BR-CAPES-BTD-2021A2024-2025-12-01
+        </IDNo>
+      </titlStmt>
+      <prodStmt>
+        <producer abbr="CAPES" affiliation="DAV" role="Gestão de Dados e Informação">
+          CAPES- Coordenação de Aperfeiçoamento de Pessoal de Nível Superior
+        </producer>
+        <producer abbr="CAPES" affiliation="DTI" role="Banco de Dados - Estatística">
+          CAPES- Coordenação de Aperfeiçoamento de Pessoal de Nível Superior
+        </producer>
+        <prodDate date="2025-12-01">
+          2025-12-01
+        </prodDate>
+        <software version="4.0.10" date="2018-05-02">
+          Nesstar Publisher
+        </software>
+      </prodStmt>
+      <verStmt>
+        <version>
+          <![CDATA[Versão 3.0
+
+Anual, com atualizações no 1º semestre de cada ano. Eventualmente, a atualização pode ocorrer no 2º semestre em decorrência de ajustes no calendário da coleta dos dados.
+
+Esta versão apresenta os metadados para os trabalhos de conclusão de cursos de pós-graduação stricto sensu dos anos de 2021, 2022, 2023 e 2024.]]>
+        </version>
+      </verStmt>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>
+          [2021 a 2024] Catálogo de Teses e Dissertações da CAPES
+        </titl>
+        <subTitl>
+          Dados das Teses e Dissertações da Pós-Graduação
+        </subTitl>
+        <altTitl>
+          COLBTDPG2021-2024
+        </altTitl>
+        <parTitl>
+          database theses
+        </parTitl>
+        <IDNo>
+          BR-CAPES-BTD-2021A2024-2025-12-01
+        </IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="DAV - Diretoria de Avaliação">
+          CAPES- Coordenação de Aperfeiçoamento de Pessoal de Nível Superior
+        </AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="IES" affiliation="Geradora dos dados" role="Informante">
+          Instituições de Ensino
+        </producer>
+        <software version="4.0.10" date="2018-05-02">
+          Nesstar Publisher
+        </software>
+        <fundAg abbr="CAPES">
+          Coordenação de Aperfeiçoamento de Pessoal de Nível Superior
+        </fundAg>
+      </prodStmt>
+      <serStmt>
+        <serName>
+          Outros registros administrativos
+        </serName>
+        <serInfo>
+          <![CDATA[Historicamente, a CAPES mantém registros sobre a pós-graduação stricto sensu brasileira desde 1976, ano em que a Agência iniciou a sistemática de avaliação de mérito dos Programas de Pós-Graduação (PPG) que constituíam o Sistema Nacional de Pós-Graduação (SNPG). Inicialmente, tais registros restringiam-se aos dados básicos sobre a constituição do PPG, como seu ano de início e os respectivos níveis de cursos (mestrado e/ou doutorado) nele existentes, bem como as informações sobre os totais de discentes por situação de matrícula e de totais de docentes vinculados ao programa. A coleta era realizada por meio do envio dos dados agregados, em tabelas, utilizando formulários de papel. No ano de início da avaliação, a pós-graduação stricto sensu brasileira contava com 518 cursos de mestrado e 181 de doutorado, distribuídos em 524 programas. 
+ 
+Tal sistemática perdurou até meados da década de 1980, quando então foi instituído o Data CAPES, utilizado no período de 1988 a 1995, que permitia que a coleta de informação fosse enviada em meio digital. Nesse novo modo, além dos dados de discentes e docentes agregados em tabelas, passou a ser enviada a informação individual de cada autor da produção intelectual do PPG. 
+
+Em 1996, inicia-se o Coleta de Dados. Neste novo formato de envio das informações os registros eram mais detalhados e coletados em forma de base de dados. A disponibilização desse sistema foi facilitada pela evolução dos recursos de tecnologia de informação e pela popularização da Internet. Esse modelo permaneceu até 2002, ainda contendo informações sobre o fluxo discente, docentes e a listagem de autores de produção intelectual. Além disso, em 1998, institucionalizou-se a distinção entre os cursos de mestrado (acadêmico e profissional). Assim, em um mesmo PPG, poderiam coexistir cursos de mestrado, doutorado e mestrado profissional. Neste ano, o SNPG contava com 1.463 cursos de mestrado, 27 de mestrado profissional e 779 de doutorado, distribuídos em 1.516 PPGs. 
+
+No ano de 2003, as bases de dados passaram a ter a identificação nominal para os discentes e os docentes. No ano seguinte, passou-se a validar o preenchimento do documento de cada indivíduo pelo formato do Cadastro de Pessoa Física (CPF), assim como foram incluídos mais detalhes sobre sua situação de matrícula. Também em 2004, foi implantada uma adequação para que os PPG se distinguissem entre os que atuavam com viés profissional daqueles com viés acadêmico. Assim passou-se a ter PPGs contando estritamente com cursos de mestrado e/ou doutorado (acadêmico) e, PPGs com cursos unicamente de mestrado profissional. 
+
+Até 2012, o Coleta de Dados constituiu-se em um aplicativo que era instalado localmente no computador do usuário, o que permitia que as informações fossem inseridas livremente pelos responsáveis do respectivo PPG e o envio era realizado pela Pró-Reitoria de Pesquisa e Pós-Graduação (ou Órgão equivalente) da Instituição ao qual o PPG estava vinculado. O envio dos dados ocorria uma vez ao ano, sempre com referência à situação do PPG no dia 31 de dezembro do ano base. 
+
+Em 2013, o Coleta de Dados passou a ser um módulo na Plataforma Sucupira e as informações podem ser preenchidas a qualquer tempo. A Plataforma disponibiliza em tempo real e de forma transparente as informações, processos e procedimentos que a CAPES realiza no SNPG para toda a comunidade acadêmica. Na Plataforma, as informações sobre o PPG podem sofrer atualizações recorrentes, mesmo aquelas de anos de referência anteriores ao ano corrente. No entanto, os dados que são considerados para os fins de avaliação são obtidos a partir daqueles existentes em um momento específico, cujos registros ficam estáticos. Eles configuram uma imagem da estrutura e constituição do PPG. Para garantir que tal imagem represente fidedignamente o PPG no ano de referência, ela deve ser homologada tanto pelo coordenador responsável, quanto pelo Pró-Reitor de Pesquisa e Pós-Graduação (ou Órgão equivalente) da Instituição de Ensino, de acordo com o calendário de envio estabelecido pela CAPES. Tecnologicamente, ainda, a Plataforma Sucupira conta com diversos procedimentos de validação e cruzamentos de dados, visando garantir a qualidade da informação gerada. Além disso, no formato atual, há uma maior e mais detalhada variedade de informações sobre os discentes, docentes e produção intelectual do PPG em relação ao que se coletava em anos anteriores. 
+
+A evolução da Plataforma busca atender as necessidades observadas para a avaliação de mérito provenientes do Conselho Técnico Científico da Educação Superior (CTC-ES). O CTC-ES é formado: pelo Presidente da CAPES; por alguns de seus Diretores; por representantes das Grandes Áreas do Conhecimento; por um representante da Associação Nacional de Pós-Graduandos (ANPG) e por um membro do Fórum Nacional de Pró-Reitores de Pesquisa e Graduação (FOPROP), grupo este que representa a comunidade acadêmica. 
+
+O período avaliativo passou por diversas modificações desde a instituição da análise de mérito pela CAPES, sendo atribuído ao Conselho Superior definir sua abrangência. Atualmente, o ciclo avaliativo é de quatro anos, sendo que o primeiro correspondeu ao período de 2013 a 2016, o segundo compreendeu os anos de 2017 a 2020 e o terceiro de 2021 a 2024.]]>
+        </serInfo>
+      </serStmt>
+      <verStmt>
+        <version date="2025-12-01">
+          <![CDATA[Versão 3.0
+
+Anual, com atualizações no 1º semestre de cada ano. Eventualmente, a atualização pode ocorrer no 2º semestre em decorrência de ajustes no calendário da coleta dos dados.
+
+Esta versão apresenta os metadados para os trabalhos de conclusão de cursos de pós-graduação stricto sensu dos anos de 2021, 2022, 2023 e 2024.]]>
+        </version>
+        <notes>
+          <![CDATA[Metodologia de Carga:
+
+Originariamente os dados do Programa de Pós-Graduação (PPG) são declarados, atualmente, na Plataforma Sucupira. 
+
+Nela, as informações podem sofrer atualizações recorrentes, mesmo aquelas de anos de referência anteriores. No entanto, os dados que são considerados para os fins de avaliação, são obtidos a partir daqueles existentes em um momento específico, cujos registros ficam congelados. Eles configuram uma imagem da estrutura e constituição do PPG. Para garantir que tal imagem represente fidedignamente o PPG, ela deve ser homologada tanto pelo (a) Coordenador (a) responsável pelo Programa de Pós-Graduação, quanto pelo (a) Pró-Reitor (a) de Pesquisa e Pós-Graduação (ou Órgão equivalente) da Instituição de Ensino à qual o Programa de Pós-Graduação está vinculado. 
+
+Por motivos diversos, como falhas de sistema ou nova oportunidade para envio dos dados do Coleta, por exemplo, os Programas de Pós-Graduação podem retificar as informações declaradas em momento posterior predefinido.
+
+Para cada um dos envios é gerada uma imagem dos dados declarados e homologados. Caso um determinado PPG tenha múltiplas imagens encaminhadas e homologadas, apenas a última é considerada para os fins de avaliação. 
+
+Nesta seção, encontram-se carregados os dados de das teses, dissertações e/ou outros trabalhos de conclusão de curso dos discentes de pós-graduação stricto sensu da última imagem dos dados do PPG. 
+
+Para informações de programas, cursos, docentes, discentes, produção intelectual ou projetos, ver demais seções.]]>
+        </notes>
+      </verStmt>
+    </citation>
+    <stdyInfo>
+      <subject>
+        <keyword>
+          Teses
+        </keyword>
+        <keyword>
+          Dissertações
+        </keyword>
+        <keyword>
+          Pós-Graduação
+        </keyword>
+        <keyword>
+          Educação
+        </keyword>
+        <topcClas vocab="CIE-IBGE">
+          Educação
+        </topcClas>
+      </subject>
+      <abstract>
+        <![CDATA[O Catálogo de Teses e Dissertações da CAPES tem como objetivo facilitar o acesso a informações sobre teses e dissertações defendidas junto a programas de pós-graduação do país. Atualmente os dados nele apresentados são oriundos da Plataforma Sucupira. 
+
+Os dados referenciados neste metadados contêm informações sobre as Teses e Dissertações  da Pós-Graduação do ano base 2021, 2022, 2023 e 2024.]]>
+      </abstract>
+      <sumDscr>
+        <timePrd date="2021-01-01" event="start" cycle="Anual"/>
+        <timePrd date="2021-12-31" event="end" cycle="Anual"/>
+        <timePrd date="2022-01-01" event="start" cycle="Anual"/>
+        <timePrd date="2022-12-31" event="end" cycle="Anual"/>
+        <timePrd date="2023-01-01" event="start" cycle="Anual"/>
+        <timePrd date="2023-12-31" event="end" cycle="Anual"/>
+        <timePrd date="2024-01-01" event="start" cycle="Anual"/>
+        <timePrd date="2024-12-31" event="end" cycle="Anual"/>
+        <collDate date="2021-01-02" event="start" cycle="Ano base 2021"/>
+        <collDate date="2024-10-06" event="end" cycle="Ano base 2021"/>
+        <collDate date="2022-01-02" event="start" cycle="Ano base 2022"/>
+        <collDate date="2024-10-06" event="end" cycle="Ano base 2022"/>
+        <collDate date="2023-01-02" event="start" cycle="Ano base 2023"/>
+        <collDate date="2024-05-19" event="end" cycle="Ano base 2023"/>
+        <collDate date="2024-01-02" event="start" cycle="Ano base 2024"/>
+        <collDate date="2025-04-01" event="end" cycle="Ano base 2024"/>
+        <nation abbr="BRA">
+          Brasil
+        </nation>
+        <geogCover>
+          Nacional
+        </geogCover>
+        <geogUnit>
+          Município
+        </geogUnit>
+        <anlyUnit>
+          Produto
+        </anlyUnit>
+        <universe>
+          Discentes de Pós-Graduação no Brasil.
+        </universe>
+        <dataKind>
+          Registos administrativos [adm]
+        </dataKind>
+      </sumDscr>
+      <notes>
+        <![CDATA[Principais variáveis: Nome da Tese ou Dissertação, Área de avaliação, Área de Conhecimento, Nome do autor, data de defesa.
+
+Variáveis derivadas: Região da IES, Número de páginas.]]>
+      </notes>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <dataCollector abbr="CAPES" affiliation="DAV - Diretoria de Avaliação">
+          Coordenação de Aperfeiçoamento de Pessoal de Nível Superior
+        </dataCollector>
+        <dataCollector abbr="IES" affiliation="Programas de Pós-graduação">
+          Instituições de Ensino
+        </dataCollector>
+        <frequenc>
+          Permanente
+        </frequenc>
+        <collMode>
+          CASI - Questionário eletrônico autopreeenchido
+        </collMode>
+        <sources/>
+        <collSitu>
+          <![CDATA[Desde 2013, os Programas de Pós-Graduação stricto sensu (PPG) podem preencher a qualquer tempo as informações referentes a seu fluxo discente, docente e de produção intelectual, dentre outras.
+
+Anualmente a CAPES abre um calendário para o ateste (ou envio) da informação referente ao ano anterior concluído. Os coordenadores de PPG's devem, dentro desse período e com ateste solidário dos Pró-Reitores de Pesquisa e Pós-Graduação (ou correspondente), enviar uma imagem, em que os dados do Programa em todas as suas dimensões são armazenados e não mais passíveis de alteração. É essa informação que será utilizada para fins de Avaliação e geração de estatísticas oficiais.
+
+Mesmo após o envio da imagem, a base de dados do módulo Coleta da Plataforma permanece editável, porém, novas atualizações não serão computadas após o encerramento do calendário de envio, salvo atualizações estipuladas em calendário definido pela Diretoria de Avaliação. Dessa forma, confia-se a fidedignidade da informação ao preenchimento de cada Programa.
+
+Em relação aos anos em curso, foram abertos os seguintes calendários:
+
+ID_CALENDADARIO_EVENTO: 799
+AN_BASE: 2021
+DS_CALENDARIO: Coleta de informações 2021
+ID_CALENDARIO_PERIODO: 509
+NM_CLIENTELA: Coleta de Informações 2021_3
+DH_INICIO: 2021-01-02
+DH_FIM: 2024-10-04
+DH_FIM_HOMOLOGACAO: 2024-10-06
+
+ID_CALENDADARIO_EVENTO: 879
+AN_BASE: 2022
+DS_CALENDARIO: Coleta de informações 2022
+ID_CALENDARIO_PERIODO: 510
+NM_CLIENTELA: Coleta de informações 2022_2
+DH_INICIO: 2022-01-02
+DH_FIM: 2024-10-04
+DH_FIM_HOMOLOGACAO: 2024-10-06
+
+ID_CALENDADARIO_EVENTO: 960
+AN_BASE: 2023
+DS_CALENDARIO: Coleta de informações 2023
+ID_CALENDARIO_PERIODO: 489
+NM_CLIENTELA: Coleta de informações 2023
+DH_INICIO: 2023-01-02
+DH_FIM: 2024-05-19
+DH_FIM_HOMOLOGACAO: 2024-05-19
+
+ID_CALENDADARIO_EVENTO: 1000 
+AN_BASE: 2024 
+DS_CALENDARIO: Coleta de informações 2024 
+ID_CALENDARIO_PERIODO: 529 
+NM_CLIENTELA: Coleta de informações 2024 
+DH_INICIO: 2024-01-02 
+DH_FIM: 2025-04-01 
+DH_FIM_HOMOLOGACAO: 2025-04-01 
+
+Para efeito de consolidação da informação, foi considerado o último envio homologado de cada PPG para o ano base em questão.]]>
+        </collSitu>
+      </dataColl>
+    </method>
+  </stdyDscr>
+  <fileDscr ID="F1" URI="DDI-BR-CAPES-BTD-2021a2024-2025-12-01.Nesstar?Index=0&amp;Name=ADD_SNPG - ADD_TRABALHO_CONCLUSAO">
+    <fileTxt>
+      <fileName>
+        ADD_SNPG - ADD_TRABALHO_CONCLUSAO.NSDstat
+      </fileName>
+      <fileCont>
+        <![CDATA[Os arquivos contêm informações sobre as Teses e Dissertações da Pós-Graduação de 2021 a 2024, consolidados a partir da coleta realizada pela CAPES por meio da Plataforma Sucupira, tais como os nomes dos autores, a data de defesa, a identificação da IES a qual o autor está vinculado, a área de conhecimento da tese ou dissertação.
+
+Neste documento o período de abrangência são os dados coletados do ano base de 2021 a 2024: 
+
+a. Em 2021: 82.690 registros de trabalhos de conclusão, sendo 82.586 autores distintos atuando em 4.440 Programas de Pós-Graduação de 485  Instituições de Ensino Superior. 
+b. Em 2022: 84.085 registros de trabalhos de conclusão, sendo 84.047 autores distintos atuando em 4.480 Programas de Pós-Graduação de 493  Instituições de Ensino Superior. 
+c. Em 2023: 91.463 registros de trabalhos de conclusão, sendo 91.418 autores distintos atuando em 4.529 Programas de Pós-Graduação de 497  Instituições de Ensino Superior. 
+d. Em 2024: 91.833 registros de trabalhos de conclusão, sendo 91.777 autores distintos atuando em 4.515 Programas de Pós-Graduação de 501  Instituições de Ensino Superior. 
+
+Esta versão inclui uma atualização dos dados de 2021 e 2022 devido à reabertura do calendário de envio de dados do Coleta pelos Programas de pós-graduação.]]>
+      </fileCont>
+      <fileStrc type="relational">
+        <recGrp keyvar="V69 V62 V65"/>
+      </fileStrc>
+      <dimensns>
+        <caseQnty>
+          0
+        </caseQnty>
+        <varQnty>
+          59
+        </varQnty>
+      </dimensns>
+      <fileType>
+        Nesstar 200801
+      </fileType>
+      <filePlac>
+        <![CDATA[Fundação Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - CAPES
+Diretoria de Avaliação - DAV
+Diretoria de Tecnologia da Informação - DTI]]>
+      </filePlac>
+      <verStmt>
+        <version>
+          Dados gerados para disseminação oriundos da Plataforma Sucupira (www.sucupira.capes.gov.br)
+        </version>
+      </verStmt>
+    </fileTxt>
+    <notes>
+      Títulos cassados pelas instituições são - tão logo seus processos sejam repassados à CAPES - retirados da base
+    </notes>
+  </fileDscr>
+  <dataDscr>
+    <varGrp ID="VG1" type="subject" var="V62">
+      <labl>
+        AN
+      </labl>
+      <txt>
+        ANO
+      </txt>
+      <defntn>
+        Informações do produto por ano de elementos que o caracterizam.
+      </defntn>
+    </varGrp>
+    <varGrp ID="VG2" type="subject" var="V65 V145 V146 V112 V114 V134">
+      <labl>
+        CD
+      </labl>
+      <txt>
+        CÓDIGO
+      </txt>
+      <defntn>
+        Permitir a pesquisa ou agrupamento das informações por elemento código que caracterizam um produto em um Programa de Pós-Graduação.
+      </defntn>
+    </varGrp>
+    <varGrp ID="VG11" type="subject" var="V139 V140 V141 V142">
+      <labl>
+        DH
+      </labl>
+      <txt>
+        DATA E HORA
+      </txt>
+      <defntn>
+        Informações do produto por data e hora de elementos que o caracterizam.
+      </defntn>
+    </varGrp>
+    <varGrp ID="VG8" type="subject" var="V135 V86 V87 V91 V103 V148 V149">
+      <labl>
+        DS
+      </labl>
+      <txt>
+        DESCRIÇÃO
+      </txt>
+      <defntn>
+        Informações do produto por descrição de elementos que o caracterizam.
+      </defntn>
+    </varGrp>
+    <varGrp ID="VG9" type="subject" var="V143 V144">
+      <labl>
+        DT
+      </labl>
+      <txt>
+        DATA
+      </txt>
+      <defntn>
+        Informações do produto por data de elementos que o caracterizam.
+      </defntn>
+    </varGrp>
+    <varGrp ID="VG5" type="subject" var="V69 V70 V72 V74 V76 V78 V92 V99 V123 V125 V150">
+      <labl>
+        ID
+      </labl>
+      <txt>
+        IDENTIFICAÇÃO
+      </txt>
+      <defntn>
+        Identificação de classificações de produções intelectuais.
+      </defntn>
+    </varGrp>
+    <varGrp ID="VG3" type="subject" var="V66 V68 V136 V73 V75 V138 V137 V89 V93 V95 V100 V102 V104 V105 V107 V109 V111 V113 V115 V116 V120">
+      <labl>
+        NM
+      </labl>
+      <txt>
+        NOME
+      </txt>
+      <defntn>
+        Informações do produto por nome de elementos que o caracterizam.
+      </defntn>
+    </varGrp>
+    <varGrp ID="VG6" type="subject" var="V147 V119">
+      <labl>
+        NR
+      </labl>
+      <txt>
+        NÚMERO
+      </txt>
+      <defntn>
+        Informações do produto por númro de elementos que o caracterizam.
+      </defntn>
+    </varGrp>
+    <varGrp ID="VG4" type="subject" var="V67 V106">
+      <labl>
+        SG
+      </labl>
+      <txt>
+        SIGLA
+      </txt>
+      <defntn>
+        Informações do produto por sigla de elementos que o caracterizam.
+      </defntn>
+    </varGrp>
+    <varGrp ID="VG12" type="subject" var="V88 V90 V127">
+      <labl>
+        IN
+      </labl>
+      <txt>
+        INDICADOR
+      </txt>
+      <defntn>
+        Informações do produto por indicador de elementos que o caracterizam.
+      </defntn>
+    </varGrp>
+    <var ID="V62" name="AN_BASE" files="F1" intrvl="discrete">
+      <location width="8"/>
+      <labl>
+        Ano de referência da coleta dos dados
+      </labl>
+      <txt>
+        Ano Base de Coleta dos Dados
+      </txt>
+      <catgry>
+        <catValu>
+          2021
+        </catValu>
+        <labl>
+          2021
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          2022
+        </catValu>
+        <labl>
+          2022
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          2023
+        </catValu>
+        <labl>
+          2023
+        </labl>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V65" name="CD_PROGRAMA" files="F1" intrvl="discrete">
+      <location width="15"/>
+      <labl>
+        Código do programa de pós-graduação na CAPES
+      </labl>
+      <txt>
+        O Código do programa é gerado a partir do código da IES na Capes, já que o programa é vinculado a IES. O código do programa é único.
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V66" name="NM_PROGRAMA" files="F1" intrvl="discrete">
+      <location width="255"/>
+      <labl>
+        Nome do programa de pós-graduação na CAPES
+      </labl>
+      <txt>
+        <![CDATA[Nome do Programa ao qual a produção está vinculada.
+Nome do Programa de Pós-Graduação, informado pela Instituição e aprovado pelo Ministério da Educação.]]>
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V134" name="CD_ENTIDADE_CAPES" files="F1" intrvl="discrete">
+      <location width="8"/>
+      <labl>
+        Código da Instituição de Ensino Superior na CAPES
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <txt>
+        Código da Instituição de Ensino Superior na CAPES à qual o discente está vinculado no programa de pós-graduação
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V67" name="SG_ENTIDADE_ENSINO" files="F1" intrvl="discrete">
+      <location width="20"/>
+      <labl>
+        Sigla da Instituição de Ensino Superior do programa de pós-graduação
+      </labl>
+      <txt>
+        Sigla da Instituição de Ensino Superior à qual o discente está vinculado no programa de pós-graduação
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V68" name="NM_ENTIDADE_ENSINO" files="F1" intrvl="discrete">
+      <location width="200"/>
+      <labl>
+        Nome da Instituição de Ensino Superior do programa de pós-graduação
+      </labl>
+      <txt>
+        Nome da Instituição de Ensino Superior à qual o discente está vinculado no programa de pós-graduação
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V69" name="ID_ADD_PRODUCAO_INTELECTUAL" files="F1" intrvl="discrete">
+      <location width="8"/>
+      <labl>
+        Identificador do produto no ano de referência na base de dados da CAPES
+      </labl>
+      <txt>
+        Identificação da Tese ou Dissertação no Ano Base e no Programa na Base de Dados da CAPES
+      </txt>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V70" name="ID_PRODUCAO_INTELECTUAL" files="F1" intrvl="discrete">
+      <location width="8"/>
+      <labl>
+        Identificador do produto na base de dados da CAPES
+      </labl>
+      <txt>
+        Identificador da Tese ou Dissertação na Base de Dados da CAPES
+      </txt>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V136" name="NM_PRODUCAO" files="F1" intrvl="discrete">
+      <location width="4000"/>
+      <labl>
+        Nome da produção
+      </labl>
+      <txt>
+        Título da Tese ou Dissertação
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V72" name="ID_SUBTIPO_PRODUCAO" files="F1" intrvl="discrete">
+      <location width="8"/>
+      <labl>
+        Identificador do subtipo do produto na base de dados da CAPES
+      </labl>
+      <txt>
+        Identificador do Subtipo da Produção
+      </txt>
+      <catgry>
+        <catValu>
+          1
+        </catValu>
+        <labl>
+          TESE
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          2
+        </catValu>
+        <labl>
+          DISSERTAÇÃO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          30
+        </catValu>
+        <labl>
+          REVISÃO SISTEMÁTICA E APROFUNDADA DA LITERATURA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          33
+        </catValu>
+        <labl>
+          ARTIGO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          34
+        </catValu>
+        <labl>
+          REGISTRO DE PROPRIEDADE INTELECTUAL
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          35
+        </catValu>
+        <labl>
+          PROJETO TÉCNICO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          36
+        </catValu>
+        <labl>
+          PUBLICAÇÃO TECNOLÓGICA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          37
+        </catValu>
+        <labl>
+          DESENVOLVIMENTO DE APLICATIVO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          38
+        </catValu>
+        <labl>
+          MATERIAL DIDÁTICO E INSTRUCIONAL
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          39
+        </catValu>
+        <labl>
+          PRODUTO, PROCESSO OU TÉCNICA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          40
+        </catValu>
+        <labl>
+          PRODUÇÃO DE PROGRAMAS DE MÍDIA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          41
+        </catValu>
+        <labl>
+          EDITORIA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          42
+        </catValu>
+        <labl>
+          COMPOSIÇÃO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          43
+        </catValu>
+        <labl>
+          CONCERTO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          44
+        </catValu>
+        <labl>
+          RELATÓRIO FINAL DE PESQUISA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          45
+        </catValu>
+        <labl>
+          SOFTWARE
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          46
+        </catValu>
+        <labl>
+          ESTUDO DE CASO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          47
+        </catValu>
+        <labl>
+          RELATÓRIO TÉCNICO COM REGRAS DE SIGILO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          48
+        </catValu>
+        <labl>
+          MANUAL DE OPERAÇÃO TÉCNICA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          49
+        </catValu>
+        <labl>
+          PROTOCOLO EXPERIMENTAL OU DE APLICAÇÃO EM SERVIÇOS
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          50
+        </catValu>
+        <labl>
+          PROJETO DE APLICAÇÃO OU ADEQUAÇÃO TECNOLÓGICA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          51
+        </catValu>
+        <labl>
+          PROTÓTIPO PARA DESENVOLVIMENTO OU PRODUÇÃO DE INSTRUMENTOS
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          52
+        </catValu>
+        <labl>
+          EQUIPAMENTO OU KIT
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          53
+        </catValu>
+        <labl>
+          PROJETO DE INOVAÇÃO TECNOLÓGICA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          54
+        </catValu>
+        <labl>
+          PRODUÇÃO ARTÍSTICA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          55
+        </catValu>
+        <labl>
+          PROPOSTA DE INTERVENÇÃO EM PROCEDIMENTOS CLÍNICOS OU DE SERVIÇO PERTINENTE
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          56
+        </catValu>
+        <labl>
+          OUTROS
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          57
+        </catValu>
+        <labl>
+          PATENTE
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          58
+        </catValu>
+        <labl>
+          PROPOSTA PEDAGÓGICA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          59
+        </catValu>
+        <labl>
+          PROCESSO DE CRIAÇÃO
+        </labl>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+      <notes>
+        <![CDATA[Os subtipos da Produção são de acordo com o Grau Acadêmico, sendo:
+Tese - Doutorado e
+Dissertação - Mestrado e Mestrado Profissional.
+Para alguns casos de Mestrado Profissional temos outras modalidades de Trabalho de conclusão de curso.]]>
+      </notes>
+    </var>
+    <var ID="V73" name="NM_SUBTIPO_PRODUCAO" files="F1" intrvl="discrete">
+      <location width="255"/>
+      <labl>
+        Nome do subtipo do produto na base de dados da CAPES
+      </labl>
+      <sumStat type="vald">
+        0
+      </sumStat>
+      <sumStat type="invd">
+        0
+      </sumStat>
+      <txt>
+        Nome do Subtipo da Produção
+      </txt>
+      <catgry>
+        <catValu>
+          1
+        </catValu>
+        <labl>
+          TESE
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          2
+        </catValu>
+        <labl>
+          DISSERTAÇÃO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          30
+        </catValu>
+        <labl>
+          REVISÃO SISTEMÁTICA E APROFUNDADA DA LITERATURA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          33
+        </catValu>
+        <labl>
+          ARTIGO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          34
+        </catValu>
+        <labl>
+          REGISTRO DE PROPRIEDADE INTELECTUAL
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          35
+        </catValu>
+        <labl>
+          PROJETO TÉCNICO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          36
+        </catValu>
+        <labl>
+          PUBLICAÇÃO TECNOLÓGICA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          37
+        </catValu>
+        <labl>
+          DESENVOLVIMENTO DE APLICATIVO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          38
+        </catValu>
+        <labl>
+          MATERIAL DIDÁTICO E INSTRUCIONAL
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          39
+        </catValu>
+        <labl>
+          PRODUTO, PROCESSO OU TÉCNICA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          40
+        </catValu>
+        <labl>
+          PRODUÇÃO DE PROGRAMAS DE MÍDIA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          41
+        </catValu>
+        <labl>
+          EDITORIA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          42
+        </catValu>
+        <labl>
+          COMPOSIÇÃO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          43
+        </catValu>
+        <labl>
+          CONCERTO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          44
+        </catValu>
+        <labl>
+          RELATÓRIO FINAL DE PESQUISA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          45
+        </catValu>
+        <labl>
+          SOFTWARE
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          46
+        </catValu>
+        <labl>
+          ESTUDO DE CASO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          47
+        </catValu>
+        <labl>
+          RELATÓRIO TÉCNICO COM REGRAS DE SIGILO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          48
+        </catValu>
+        <labl>
+          MANUAL DE OPERAÇÃO TÉCNICA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          49
+        </catValu>
+        <labl>
+          PROTOCOLO EXPERIMENTAL OU DE APLICAÇÃO EM SERVIÇOS
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          50
+        </catValu>
+        <labl>
+          PROJETO DE APLICAÇÃO OU ADEQUAÇÃO TECNOLÓGICA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          51
+        </catValu>
+        <labl>
+          PROTÓTIPO PARA DESENVOLVIMENTO OU PRODUÇÃO DE INSTRUMENTOS
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          52
+        </catValu>
+        <labl>
+          EQUIPAMENTO OU KIT
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          53
+        </catValu>
+        <labl>
+          PROJETO DE INOVAÇÃO TECNOLÓGICA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          54
+        </catValu>
+        <labl>
+          PRODUÇÃO ARTÍSTICA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          55
+        </catValu>
+        <labl>
+          PROPOSTA DE INTERVENÇÃO EM PROCEDIMENTOS CLÍNICOS OU DE SERVIÇO PERTINENTE
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          56
+        </catValu>
+        <labl>
+          OUTROS
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          57
+        </catValu>
+        <labl>
+          PATENTE
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          58
+        </catValu>
+        <labl>
+          PROPOSTA PEDAGÓGICA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          59
+        </catValu>
+        <labl>
+          PROCESSO DE CRIAÇÃO
+        </labl>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+      <notes>
+        <![CDATA[Os subtipos da Produção são de acordo com o Grau Acadêmico, sendo:
+Tese - Doutorado e
+Dissertação - Mestrado e Mestrado Profissional.
+Para alguns casos de Mestrado Profissional temos outras modalidades de Trabalho de conclusão de curso.]]>
+      </notes>
+    </var>
+    <var ID="V74" name="ID_AREA_CONCENTRACAO" files="F1" intrvl="discrete">
+      <location width="8"/>
+      <labl>
+        Identificador da área de concentração do programa de pós-graduação
+      </labl>
+      <txt>
+        Identificador da Área de Concentração do Programa a qual está vinculada a Produção
+      </txt>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V75" name="NM_AREA_CONCENTRACAO" files="F1" intrvl="discrete">
+      <location width="255"/>
+      <labl>
+        Nome da área de concentração do programa de pós-graduação
+      </labl>
+      <txt>
+        Nome da Área de Concentração do Programa a qual está vinculada a Produção
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V76" name="ID_LINHA_PESQUISA" files="F1" intrvl="discrete">
+      <location width="8"/>
+      <labl>
+        Identificador da linha de pesquisa do programa de pós-graduação
+      </labl>
+      <txt>
+        Identificador da Linha de Pesquisa do Programa a qual está vinculada a Produção
+      </txt>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V138" name="NM_LINHA_PESQUISA" files="F1" intrvl="discrete">
+      <location width="255"/>
+      <labl>
+        Nome da linha de pesquisa do programa de pós-graduação
+      </labl>
+      <txt>
+        Nome da Linha de Pesquisa do Programa a qual está vinculada a Produção
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V78" name="ID_PROJETO" files="F1" intrvl="discrete">
+      <location width="8"/>
+      <labl>
+        Identificador do projeto do programa de pós-graduação
+      </labl>
+      <txt>
+        Identificador do Projeto de Pesquisa do Programa a qual está vinculada a Produção
+      </txt>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V137" name="NM_PROJETO" files="F1" intrvl="discrete">
+      <location width="4000"/>
+      <labl>
+        Nome do projeto do programa de pós-graduação
+      </labl>
+      <txt>
+        Nome do Projeto de Pesquisa do Programa a qual está vinculada a Produção
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V139" name="DH_INICIO_AREA_CONC" files="F1" intrvl="discrete">
+      <labl>
+        Data e hora do início da área de concentração do programa de pós-graduação
+      </labl>
+      <varFormat type="character" formatname="Nesstar.date" schema="other" category="date"/>
+    </var>
+    <var ID="V140" name="DH_FIM_AREA_CONC" files="F1" intrvl="discrete">
+      <labl>
+        Data e hora do fim da área de concentração do programa de pós-graduação
+      </labl>
+      <varFormat type="character" formatname="Nesstar.date" schema="other" category="date"/>
+    </var>
+    <var ID="V141" name="DH_INICIO_LINHA" files="F1" intrvl="discrete">
+      <labl>
+        Data e hora do início da linha de pesquisa do programa de pós-graduação
+      </labl>
+      <varFormat type="character" formatname="Nesstar.date" schema="other" category="date"/>
+    </var>
+    <var ID="V142" name="DH_FIM_LINHA" files="F1" intrvl="discrete">
+      <labl>
+        Data e hora do fim da linha de pesquisa do programa de pós-graduação
+      </labl>
+      <varFormat type="character" formatname="Nesstar.date" schema="other" category="date"/>
+    </var>
+    <var ID="V143" name="DT_TITULACAO" files="F1" intrvl="discrete">
+      <labl>
+        Data da titulação
+      </labl>
+      <txt>
+        Data da Titulação do Autor da Produção
+      </txt>
+      <varFormat type="character" formatname="Nesstar.date" schema="other" category="date"/>
+    </var>
+    <var ID="V135" name="DS_PALAVRA_CHAVE" files="F1" intrvl="discrete">
+      <location width="500"/>
+      <labl>
+        Descrição da palavra chave
+      </labl>
+      <txt>
+        Palavras Chave da Tese ou Dissertação
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V86" name="DS_ABSTRACT" files="F1" intrvl="discrete">
+      <location width="32000"/>
+      <labl>
+        Descrição do abstract
+      </labl>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V87" name="DS_KEYWORD" files="F1" intrvl="discrete">
+      <location width="500"/>
+      <labl>
+        Drscrição do keyword
+      </labl>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V88" name="IN_TRABALHO_MESMA_AREA" files="F1" intrvl="discrete">
+      <location width="8"/>
+      <labl>
+        Indicador de expectativa de atuação
+      </labl>
+      <txt>
+        indica se a expectativa de atuação profissional do concluinte é na mesma de formação.
+      </txt>
+      <catgry>
+        <catValu>
+          0
+        </catValu>
+        <labl>
+          NÃO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          1
+        </catValu>
+        <labl>
+          SIM
+        </labl>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V89" name="NM_TP_VINCULO" files="F1" intrvl="discrete">
+      <location width="50"/>
+      <labl>
+        Nome do tipo de vinculo
+      </labl>
+      <txt>
+        Informação do tipo de vínculo empregatício atual do discente.
+      </txt>
+      <catgry>
+        <catValu>
+          APOSENTADO
+        </catValu>
+        <labl>
+          APOSENTADO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          BOLSA DE FIXAÇÃO
+        </catValu>
+        <labl>
+          BOLSA DE FIXAÇÃO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          CLT
+        </catValu>
+        <labl>
+          CLT
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          COLABORADOR
+        </catValu>
+        <labl>
+          COLABORADOR
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          NÃO INFORMADO
+        </catValu>
+        <labl>
+          NÃO INFORMADO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          SERVIDOR PÚBLICO
+        </catValu>
+        <labl>
+          SERVIDOR PÚBLICO
+        </labl>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V90" name="IN_ORIENT_PARTICIPOU_BANCA" files="F1" intrvl="discrete">
+      <location width="8"/>
+      <labl>
+        Indicador se o orientador participou da banca
+      </labl>
+      <catgry>
+        <catValu>
+          0
+        </catValu>
+        <labl>
+          NÃO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          1
+        </catValu>
+        <labl>
+          SIM
+        </labl>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V91" name="DS_BIBLIOTECA_DEPOSITARIA" files="F1" intrvl="discrete">
+      <location width="1000"/>
+      <labl>
+        Descrição da biblioteca depositária
+      </labl>
+      <txt>
+        Biblioteca Depositaria da Tese ou Dissertação
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V92" name="ID_TP_EXPECTATIVA_ATUACAO" files="F1" intrvl="discrete">
+      <location width="8"/>
+      <labl>
+        Identificador do tipo de expectativa da atuação
+      </labl>
+      <catgry>
+        <catValu>
+          0
+        </catValu>
+        <labl>
+          NÃO INFORMADO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          1
+        </catValu>
+        <labl>
+          ENSINO E PESQUISA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          2
+        </catValu>
+        <labl>
+          PESQUISA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          3
+        </catValu>
+        <labl>
+          EMPRESAS
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          4
+        </catValu>
+        <labl>
+          PROFISSIONAL AUTÔNOMO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          5
+        </catValu>
+        <labl>
+          OUTROS
+        </labl>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V93" name="NM_EXPECTATIVA_ATUACAO" files="F1" intrvl="discrete">
+      <location width="255"/>
+      <labl>
+        Nome da expectativa da atuação
+      </labl>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V123" name="ID_PESSOA_DISCENTE" files="F1" intrvl="discrete">
+      <location width="8"/>
+      <labl>
+        Código de identificação do discente enquanto pessoa na base de dados da CAPES
+      </labl>
+      <txt>
+        Identifica o discente enquanto pessoa na base de dados da Capes em relação ao seu cadastro de Pessoa Física na Receita Federal. Tal identificador é único, independente do vínculo da pessoa enquanto discente, grau acadêmico e Programa de Pós-Graduação.
+      </txt>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V95" name="NM_DISCENTE" files="F1" intrvl="discrete">
+      <location width="250"/>
+      <labl>
+        Nome do discente
+      </labl>
+      <txt>
+        Nome do discente. Em geral, corresponde ao nome da pessoa na base de dados da Receita Federal, salvo atualizações nela que não tenham refletido na base de dados da Capes.
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V144" name="DT_MATRICULA" files="F1" intrvl="discrete">
+      <labl>
+        Data da matrícula do discente
+      </labl>
+      <txt>
+        Data de matrícula do discente no Programa de Pós-Graduação
+      </txt>
+      <varFormat type="character" formatname="Nesstar.date" schema="other" category="date"/>
+    </var>
+    <var ID="V99" name="ID_GRAU_ACADEMICO" files="F1" intrvl="discrete">
+      <location width="8"/>
+      <labl>
+        Identificador do grau acadêmico ao qual o discente está vinculado
+      </labl>
+      <txt>
+        Grau acadêmico ao qual o discente está vinculado em 31 de dezembro do ano base.
+      </txt>
+      <catgry>
+        <catValu>
+          27
+        </catValu>
+        <labl>
+          MESTRADO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          28
+        </catValu>
+        <labl>
+          DOUTORADO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          30
+        </catValu>
+        <labl>
+          MESTRADO PROFISSIONAL
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          31
+        </catValu>
+        <labl>
+          DOUTORADO PROFISSIONAL
+        </labl>
+      </catgry>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V100" name="NM_GRAU_ACADEMICO" files="F1" intrvl="discrete">
+      <location width="50"/>
+      <labl>
+        Nome do grau acadêmico ao qual o discente está vinculado
+      </labl>
+      <txt>
+        Grau acadêmico ao qual o discente está vinculado em 31 de dezembro do ano base.
+      </txt>
+      <catgry>
+        <catValu>
+          27
+        </catValu>
+        <labl>
+          MESTRADO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          28
+        </catValu>
+        <labl>
+          DOUTORADO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          30
+        </catValu>
+        <labl>
+          MESTRADO PROFISSIONAL
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          31
+        </catValu>
+        <labl>
+          DOUTORADO PROFISSIONAL
+        </labl>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V102" name="NM_ORIENTADOR" files="F1" intrvl="discrete">
+      <location width="250"/>
+      <labl>
+        Nome do orientador
+      </labl>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V103" name="DS_CATEGORIA_ORIENTADOR" files="F1" intrvl="discrete">
+      <location width="30"/>
+      <labl>
+        Descrição da categoria do orientador
+      </labl>
+      <txt>
+        Descrição da Categoria do Orientador no programa
+      </txt>
+      <catgry>
+        <catValu>
+          DOCENTE
+        </catValu>
+        <labl>
+          DOCENTE
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          PÓS-DOC
+        </catValu>
+        <labl>
+          PÓS-DOC
+        </labl>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V104" name="NM_CATEGORIA_DOCENTE" files="F1" intrvl="discrete">
+      <location width="50"/>
+      <labl>
+        Nome da categoria do docente
+      </labl>
+      <txt>
+        Nome da categoria quando o orientador for docente no programa.
+      </txt>
+      <catgry>
+        <catValu>
+          COLABORADOR
+        </catValu>
+        <labl>
+          COLABORADOR
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          PERMANENTE
+        </catValu>
+        <labl>
+          PERMANENTE
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          VISITANTE
+        </catValu>
+        <labl>
+          VISITANTE
+        </labl>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+      <notes>
+        Quando o Orientador não for Docente então esta categoria fica como NÃO INFORMADO.
+      </notes>
+    </var>
+    <var ID="V105" name="NM_REGIAO" files="F1" intrvl="discrete">
+      <location width="20"/>
+      <labl>
+        Nome da região da Instituição de Ensino Superior do programa de pós-graduação
+      </labl>
+      <txt>
+        Nome da região da Instituição de Ensino Superior à qual o discente está vinculado no programa de pós-graduação
+      </txt>
+      <catgry>
+        <catValu>
+          CENTRO-OESTE
+        </catValu>
+        <labl>
+          CENTRO-OESTE
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          NORDESTE
+        </catValu>
+        <labl>
+          NORDESTE
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          NORTE
+        </catValu>
+        <labl>
+          NORTE
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          SUDESTE
+        </catValu>
+        <labl>
+          SUDESTE
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          SUL
+        </catValu>
+        <labl>
+          SUL
+        </labl>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V106" name="SG_UF_IES" files="F1" intrvl="discrete">
+      <location width="2"/>
+      <labl>
+        Sigla da unidade da federação da Instituição de Ensino Superior do programa de pós-graduação
+      </labl>
+      <txt>
+        Sigla da unidade da federação da Instituição de Ensino Superior à qual o discente está vinculado no programa de pós-graduação
+      </txt>
+      <catgry>
+        <catValu>
+          AC
+        </catValu>
+        <labl>
+          ACRE
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          AL
+        </catValu>
+        <labl>
+          ALAGOAS
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          AM
+        </catValu>
+        <labl>
+          AMAZONAS
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          AP
+        </catValu>
+        <labl>
+          AMAPÁ
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          BA
+        </catValu>
+        <labl>
+          BAHIA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          CE
+        </catValu>
+        <labl>
+          CEARÁ
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          DF
+        </catValu>
+        <labl>
+          DISTRITO FEDERAL
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          ES
+        </catValu>
+        <labl>
+          ESPÍRITO SANTO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          GO
+        </catValu>
+        <labl>
+          GOIÁS
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          MA
+        </catValu>
+        <labl>
+          MARANHÃO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          MG
+        </catValu>
+        <labl>
+          MINAS GERAIS
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          MS
+        </catValu>
+        <labl>
+          MATO GROSSO DO SUL
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          MT
+        </catValu>
+        <labl>
+          MATO GROSSO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          PA
+        </catValu>
+        <labl>
+          PARÁ
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          PB
+        </catValu>
+        <labl>
+          PARAÍBA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          PE
+        </catValu>
+        <labl>
+          PERNAMBUCO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          PI
+        </catValu>
+        <labl>
+          PIAUÍ
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          PR
+        </catValu>
+        <labl>
+          PARANÁ
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          RJ
+        </catValu>
+        <labl>
+          RIO DE JANEIRO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          RN
+        </catValu>
+        <labl>
+          RIO GRANDE DO NORTE
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          RO
+        </catValu>
+        <labl>
+          RONDÔNIA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          RR
+        </catValu>
+        <labl>
+          RORAIMA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          RS
+        </catValu>
+        <labl>
+          RIO GRANDE DO SUL
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          SC
+        </catValu>
+        <labl>
+          SANTA CATARINA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          SE
+        </catValu>
+        <labl>
+          SERGIPE
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          SP
+        </catValu>
+        <labl>
+          SÃO PAULO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          TO
+        </catValu>
+        <labl>
+          TOCANTINS
+        </labl>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V107" name="NM_UF_IES" files="F1" intrvl="discrete">
+      <location width="50"/>
+      <labl>
+        Nome da unidade da federação da Instituição de Ensino Superior do programa de pós-graduação
+      </labl>
+      <txt>
+        Nome da unidade da federação da Instituição de Ensino Superior à qual o discente está vinculado no programa de pós-graduação
+      </txt>
+      <catgry>
+        <catValu>
+          AC
+        </catValu>
+        <labl>
+          ACRE
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          AL
+        </catValu>
+        <labl>
+          ALAGOAS
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          AM
+        </catValu>
+        <labl>
+          AMAZONAS
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          AP
+        </catValu>
+        <labl>
+          AMAPÁ
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          BA
+        </catValu>
+        <labl>
+          BAHIA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          CE
+        </catValu>
+        <labl>
+          CEARÁ
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          DF
+        </catValu>
+        <labl>
+          DISTRITO FEDERAL
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          ES
+        </catValu>
+        <labl>
+          ESPÍRITO SANTO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          GO
+        </catValu>
+        <labl>
+          GOIÁS
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          MA
+        </catValu>
+        <labl>
+          MARANHÃO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          MG
+        </catValu>
+        <labl>
+          MINAS GERAIS
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          MS
+        </catValu>
+        <labl>
+          MATO GROSSO DO SUL
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          MT
+        </catValu>
+        <labl>
+          MATO GROSSO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          PA
+        </catValu>
+        <labl>
+          PARÁ
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          PB
+        </catValu>
+        <labl>
+          PARAÍBA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          PE
+        </catValu>
+        <labl>
+          PERNAMBUCO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          PI
+        </catValu>
+        <labl>
+          PIAUÍ
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          PR
+        </catValu>
+        <labl>
+          PARANÁ
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          RJ
+        </catValu>
+        <labl>
+          RIO DE JANEIRO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          RN
+        </catValu>
+        <labl>
+          RIO GRANDE DO NORTE
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          RO
+        </catValu>
+        <labl>
+          RONDÔNIA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          RR
+        </catValu>
+        <labl>
+          RORAIMA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          RS
+        </catValu>
+        <labl>
+          RIO GRANDE DO SUL
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          SC
+        </catValu>
+        <labl>
+          SANTA CATARINA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          SE
+        </catValu>
+        <labl>
+          SERGIPE
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          SP
+        </catValu>
+        <labl>
+          SÃO PAULO
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          TO
+        </catValu>
+        <labl>
+          TOCANTINS
+        </labl>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V145" name="CD_GRANDE_AREA_CONHECIMENTO" files="F1" intrvl="discrete">
+      <location width="50"/>
+      <labl>
+        <![CDATA[Código da grande área de conhecimento  à qual o programa de pós-graduação está vinculado]]>
+      </labl>
+      <txt>
+        Código da Grande Área de Conhecimento a que o Programa de Pós-Graduação está vinculada
+      </txt>
+      <catgry>
+        <catValu>
+          10000003
+        </catValu>
+        <labl>
+          CIÊNCIAS EXATAS E DA TERRA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          20000006
+        </catValu>
+        <labl>
+          CIÊNCIAS BIOLÓGICAS
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          30000009
+        </catValu>
+        <labl>
+          ENGENHARIAS
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          40000001
+        </catValu>
+        <labl>
+          CIÊNCIAS DA SAÚDE
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          50000004
+        </catValu>
+        <labl>
+          CIÊNCIAS AGRÁRIAS
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          60000007
+        </catValu>
+        <labl>
+          CIÊNCIAS SOCIAIS APLICADAS
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          70000000
+        </catValu>
+        <labl>
+          CIÊNCIAS HUMANAS
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          80000002
+        </catValu>
+        <labl>
+          LINGÜÍSTICA, LETRAS E ARTES
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          90000005
+        </catValu>
+        <labl>
+          MULTIDISCIPLINAR
+        </labl>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V109" name="NM_GRANDE_AREA_CONHECIMENTO" files="F1" intrvl="discrete">
+      <location width="100"/>
+      <labl>
+        Nome da grande área de conhecimento à qual o programa de pós-graduação está vinculado
+      </labl>
+      <txt>
+        Nome da grande área de conhecimento à qual o programa de pós-graduação está vinculado
+      </txt>
+      <catgry>
+        <catValu>
+          10000003
+        </catValu>
+        <labl>
+          CIÊNCIAS EXATAS E DA TERRA
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          20000006
+        </catValu>
+        <labl>
+          CIÊNCIAS BIOLÓGICAS
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          30000009
+        </catValu>
+        <labl>
+          ENGENHARIAS
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          40000001
+        </catValu>
+        <labl>
+          CIÊNCIAS DA SAÚDE
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          50000004
+        </catValu>
+        <labl>
+          CIÊNCIAS AGRÁRIAS
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          60000007
+        </catValu>
+        <labl>
+          CIÊNCIAS SOCIAIS APLICADAS
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          70000000
+        </catValu>
+        <labl>
+          CIÊNCIAS HUMANAS
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          80000002
+        </catValu>
+        <labl>
+          LINGÜÍSTICA, LETRAS E ARTES
+        </labl>
+      </catgry>
+      <catgry>
+        <catValu>
+          90000005
+        </catValu>
+        <labl>
+          MULTIDISCIPLINAR
+        </labl>
+      </catgry>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V146" name="CD_AREA_CONHECIMENTO" files="F1" intrvl="discrete">
+      <location width="50"/>
+      <labl>
+        Código da área de conhecimento à qual o programa de pós-graduação está vinculado
+      </labl>
+      <txt>
+        Código da Área de Conhecimento a que o Programa de Pós-Graduação está vinculada
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V111" name="NM_AREA_CONHECIMENTO" files="F1" intrvl="discrete">
+      <location width="255"/>
+      <labl>
+        Nome da área de conhecimento à qual o programa de pós-graduação está vinculado
+      </labl>
+      <txt>
+        Nome da Área de Conhecimento a que o Programa de Pós-Graduação está vinculada
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V112" name="CD_SUBAREA_CONHECIMENTO" files="F1" intrvl="discrete">
+      <location width="50"/>
+      <labl>
+        Código da subárea de conhecimento à qual o programa de pós-graduação está vinculado
+      </labl>
+      <txt>
+        Código da Subárea de Conhecimento a que o Programa de Pós-Graduação está vinculada
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V113" name="NM_SUBAREA_CONHECIMENTO" files="F1" intrvl="discrete">
+      <location width="100"/>
+      <labl>
+        Nome da subárea de conhecimento à qual o programa de pós-graduação está vinculado
+      </labl>
+      <txt>
+        Nome da Subárea de Conhecimento a que o Programa de Pós-Graduação está vinculada
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V114" name="CD_ESPECIALIDADE" files="F1" intrvl="discrete">
+      <location width="50"/>
+      <labl>
+        <![CDATA[Código da especialidade de conhecimento  à qual o programa de pós-graduação está vinculado]]>
+      </labl>
+      <txt>
+        Código da Especialidade de Conhecimento a que o Programa de Pós-Graduação está vinculada
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V115" name="NM_ESPECIALIDADE" files="F1" intrvl="discrete">
+      <location width="100"/>
+      <labl>
+        Nome da especialidade do conhecimento à qual o programa de pós-graduação está vinculado
+      </labl>
+      <txt>
+        Nome da Especialidade de Conhecimento a que o Programa de Pós-Graduação está vinculada
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V116" name="NM_AREA_AVALIACAO" files="F1" intrvl="discrete">
+      <location width="200"/>
+      <labl>
+        Nome da área de avaliação do programa de pós-graduação
+      </labl>
+      <txt>
+        Nome da área de Avaliação a que o Programa de Pós-Graduação está vinculado quando do envio e homologação dos dados.
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V147" name="NR_VOLUME" files="F1" intrvl="discrete">
+      <location width="10"/>
+      <labl>
+        Número do volume da produção
+      </labl>
+      <txt>
+        É o número de volumes impressos, encadernados e depositados na biblioteca depositária da Tese ou Dissertação.
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V119" name="NR_PAGINAS" files="F1" intrvl="discrete">
+      <location width="8"/>
+      <labl>
+        Número de páginas da produção
+      </labl>
+      <txt>
+        Número de Páginas da Produção
+      </txt>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V120" name="NM_IDIOMA" files="F1" intrvl="discrete">
+      <location width="60"/>
+      <labl>
+        Nome do idioma da produção
+      </labl>
+      <txt>
+        Idioma da Produção
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V148" name="DS_RESUMO" files="F1" intrvl="discrete">
+      <location width="32000"/>
+      <labl>
+        Descrição do resumo
+      </labl>
+      <txt>
+        Resumo da Produção
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V149" name="DS_URL_TEXTO_COMPLETO" files="F1" intrvl="discrete">
+      <location width="170"/>
+      <labl>
+        Descrição da URL do texto completo
+      </labl>
+      <txt>
+        URL do Texto Completo da Produção
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V125" name="ID_PESSOA_ORIENTADOR" files="F1" intrvl="discrete">
+      <location width="8"/>
+      <labl>
+        Código de identificação da pessoa orientador na base de dados da CAPES
+      </labl>
+      <txt>
+        Identifica do orientador vinculado a produção enquanto pessoa na base de dados da Capes em relação ao seu cadastro de Pessoa Física na Receita Federal. Tal identificador é único, independente do vínculo da pessoa enquanto orientador, grau acadêmico e Programa de Pós-Graduação.
+      </txt>
+      <varFormat type="numeric" schema="other"/>
+    </var>
+    <var ID="V127" name="IN_TCC_COM_VINCULO_PRODUCAO" files="F1" intrvl="discrete">
+      <location width="3"/>
+      <labl>
+        Indicada se o TCC tem vínculo com alguma produção intelectual
+      </labl>
+      <txt>
+        <![CDATA[Indicada se  o TCC tem vínculo com alguma produção intelectual]]>
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+    <var ID="V150" name="ID_ADD_PRODUCAO_VINCULO_CT" files="F1" intrvl="discrete">
+      <location width="1200"/>
+      <labl>
+        Representa os 'IDs' das produções intelectuais concatenadas, para caso o usuário deseje saber qual produção intelectual foi vinculada aquele TCC
+      </labl>
+      <txt>
+        Representa os 'IDs' das produções intelectuais concatenadas, para caso o usuário deseje saber qual produção intelectual foi vinculada aquele TCC
+      </txt>
+      <varFormat type="character" schema="other"/>
+    </var>
+  </dataDscr>
+</codeBook>
