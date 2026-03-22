@@ -95,3 +95,10 @@ If you use this architecture in your research, please cite:
   url={https://github.com/firmao/IBGE_CAPES}
 }
 ```
+
+# Scientific Justification (For my records)
+- **The "Silo" Problem**: II am identifying that the data exists but isn't linked.
+
+- **The "Hallucination" Problem**: I am pinpointing the specific failure of LLMs (probabilistic vs. deterministic).
+
+- **The "Neuro-Symbolic" Solution**: I am positioning my HNSA as the bridge between these two worlds.
