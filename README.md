@@ -1,35 +1,52 @@
-# Hybrid Neuro-Symbolic Architecture (HNSA)
-
-### Intelligent Data Governance for IBGE & CAPES Linked Data
-
-[](https://opensource.org/licenses/MIT)
-[](https://www.python.org/downloads/)
-[](https://github.com/firmao/IBGE_CAPES)
-
-This repository contains the reference implementation for the paper: **"Hybrid Neuro-Symbolic Architecture for Intelligent Data Governance: Grounding LLMs in Multi-Contextual Linked Data."**
-
-The project demonstrates how to bridge the gap between Brazilian socioeconomic data (**IBGE**) and academic research metadata (**CAPES**) using a lightweight Graph Convolutional Network (GCN) crosswalk. By anchoring Large Language Models (LLMs) to this symbolic "Source of Truth," we achieve a **\>70% reduction in factual hallucinations.**
-
------
+# 🌐 Hybrid Neuro-Symbolic Crosswalk: IBGE-CAPES
+This repository implements a Hybrid Neuro-Symbolic Crosswalk to identify latent synergies between Brazilian socio-economic infrastructure (**IBGE**) and academic research excellence (**CAPES**). By combining Graph Convolutional Network (GCN) logic with Semantic Web technologies, this tool maps regional innovation ecosystems into a machine-readable Knowledge Graph.
 
 ## 🚀 Key Features
+* **Latent Manifold Alignment:** Projects heterogeneous data (100 Municipalities, 100 Graduate Programs) into a unified vector space.
 
-  * **Symbolic Anchor:** A deterministic Knowledge Graph (KG) that acts as a factual constraint for generative AI.
-  * **GCN Crosswalk:** A NumPy-based Graph Convolutional Layer that identifies semantic links between heterogeneous datasets (e.g., matching regional GDP to university research funding).
-  * **Zero-Torch Implementation:** Optimized for Windows and low-resource environments; no CUDA or PyTorch DLL dependencies required.
-  * **Hallucination Mitigation:** Implements strict context-window anchoring to transition LLMs from *probabilistic guessing* to *factual synthesis*.
+* **FAIR-Compliant Output:** Automatically serializes results into RDF/Turtle format using DBpedia (dbo) and Schema.org vocabularies.
 
------
+* **Symbolic Provenance:** Integration of W3C PROV ontology to track data lineage and transformation.
+
+* **Interactive Lab:** A Streamlit-based interface for real-time experiment execution and data visualization.
+
 
 ## 📊 Architecture Overview
 
 The HNSA operates in three distinct phases:
 
-1.  **Ingestion:** Mapping RDF-triples from [IBGE SIDRA](https://www.google.com/search?q=https://sidra.ibge.gov.br/) and [CAPES Open Data](https://dadosabertos.capes.gov.br/).
-2.  **Alignment:** Projecting entities into a shared semantic space using a GCN-based Laplacian normalization.
-3.  **Grounding:** Injecting verified subgraphs into the LLM prompt to ensure 100% data traceability.
+1.  Mapping RDF-triples from [IBGE SIDRA](https://www.google.com/search?q=https://sidra.ibge.gov.br/) and [CAPES Open Data](https://dadosabertos.capes.gov.br/).
+2.  Injecting verified subgraphs into the LLM prompt to ensure 100% data traceability.
+
+## 📑 Methodology: 
+The Neuro-Symbolic Approach: 
+The system operates in two distinct phases:
+1. The Neural Layer (Sub-symbolic): A simulated GCN architecture processes socio-economic tensors to identify "hidden" affinities between cities and research hubs.
+2. The Symbolic Layer (Knowledge Representation): These affinities are reified into explicit RDF triples.
+We apply FAIR Principles to ensure the output is:
+- Findable: Unique URIs for every municipality and program.
+- Accessible: Open Turtle (.ttl) exports for triple-store integration.
+- Interoperable: Use of standard ontologies ($xsd, rdfs, dbo, schema$).
+- Reusable: Strict literal typing (e.g., xsd:integer for scores) for precise SPARQL querying.
 
 -----
+## 🔍 SPARQL Query Example
+Once you download the innovation_kg.ttl file, you can perform complex audits such as finding high-performing ecosystems:
+
+```
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX cw: <https://purl.org/innovation/crosswalk#>
+PREFIX schema: <https://schema.org/>
+
+SELECT ?cityName ?score
+WHERE {
+  ?city dbo:name ?cityName ;
+        cw:linkedTo ?program .
+  ?program schema:ratingValue ?score .
+  FILTER(?score >= 5)
+}
+ORDER BY DESC(?score)
+```
 
 ## 🛠️ Installation
 
@@ -48,33 +65,24 @@ pip install -r requirements.txt
 
 ## 💻 Usage
 
-To run the full suite (GCN link discovery visualization and grounded LLM inference):
+To run the full suite (GCN link discovery, visualization):
 
-```bash
-python allexperiments.py
-```
-
-web interface (Preferable, with more information and more complete):
+web interface (Preferably, with more information and more complete):
 ```bash
 streamlit run .\web.py
 ```
 
+- only LLM and plot (not updated).
+```bash
+python allexperiments.py
+```
+
 ### Expected Output
 
-1.  **Visualization:** A Matplotlib window showing the semantic alignment of IBGE municipalities and CAPES research centers.
-2.  **Inference:** A console output demonstrating an LLM response strictly constrained by the verified data anchor.
+<img width="1808" height="919" alt="image" src="https://github.com/user-attachments/assets/d5cde520-6454-44f8-8c1c-73944b3473ca" />
 
+**Visualization:** A Matplotlib window showing the semantic alignment of IBGE municipalities and CAPES research centers.
 -----
-
-## 🧪 Scientific Justification: The "70% Rule"
-
-Standard LLMs often hallucinate specific Brazilian metrics (e.g., inventing a PhD program that doesn't exist in a specific municipality). Our architecture forces the model to use the **Symbolic Anchor**:
-
-  * **Without HNSA:** LLM relies on parametric memory (High Hallucination).
-  * **With HNSA:** LLM functions as a "Natural Language Interface" for the Knowledge Graph (Zero-Shot Accuracy).
-
------
-
 ## 📚 Data Provenance
 
   * **IBGE:** Brazilian Institute of Geography and Statistics ([sidra.ibge.gov.br](https://www.google.com/search?q=https://sidra.ibge.gov.br/)).
@@ -87,18 +95,18 @@ Standard LLMs often hallucinate specific Brazilian metrics (e.g., inventing a Ph
 If you use this architecture in your research, please cite:
 
 ```bibtex
-@article{firmao2026hnsa,
-  title={Hybrid Neuro-Symbolic Architecture for Intelligent Data Governance},
-  author={Firmao, et al.},
-  journal={Semantic Web Journal},
+@article{Valdestilhas2026hnsa,
+  title={Hybrid Neuro-Symbolic Crosswalk: Mapping Regional Innovation Ecosystems via Latent Manifold Alignment and Semantic Web Integration},
+  author={Valdestilhas, et al.},
+  journal={TBA},
   year={2026},
   url={https://github.com/firmao/IBGE_CAPES}
 }
 ```
 
 # Scientific Justification (For my records)
-- **The "Silo" Problem**: II am identifying that the data exists but isn't linked.
+- **The "Silo" Problem**: We are identifying that the data exists, but isn't linked.
 
-- **The "Hallucination" Problem**: I am pinpointing the specific failure of LLMs (probabilistic vs. deterministic).
+- **The "Hallucination" Problem**: We are pinpointing the specific failure of LLMs (probabilistic vs. deterministic).
 
-- **The "Neuro-Symbolic" Solution**: I am positioning my HNSA as the bridge between these two worlds.
+- **The "Neuro-Symbolic" Solution**: We are positioning my HNSA as the bridge between these two worlds.
