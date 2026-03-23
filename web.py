@@ -104,6 +104,15 @@ if st.session_state.data_ready:
             ax2.text(bar.get_x() + bar.get_width()/2, yval + 2, f'{yval}%', ha='center', fontweight='bold')
         st.pyplot(fig2)
         st.info(f"The KG resolved 100% of queries. The LLM failed {res['failed_count']} out of 10 trials.")
+        # ELABORATED EXPLANATION OF ERROR MITIGATION
+        st.markdown(f"""
+        ### How Verification Works:
+        This experiment creates a "battle" between **stochastic guessing** and **deterministic retrieval**:
+        
+        1. **The Neural Guess (LLM):** We ask an LLM to retrieve the score for a city. Because LLMs are probabilistic, they often "hallucinate" a score based on general patterns rather than the specific dataset. In this run, the LLM failed **{res['failed_count']} out of 10** times.
+        2. **The Symbolic Truth (KG):** We query the Knowledge Graph using the city's unique URI. Because the KG is a collection of hard facts (triples), it either finds the correct answer or returns nothing—it **never guesses**.
+        3. **The Mitigation:** By forcing the LLM to verify its answer against the Knowledge Graph before presenting it, we can identify and eliminate hallucinations instantly.
+        """)
 
     st.divider()
     st.subheader("🔍 Symbolic Reasoning: SPARQL Query")
