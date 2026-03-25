@@ -110,3 +110,17 @@ If you use this architecture in your research, please cite:
 - **The "Hallucination" Problem**: We are pinpointing the specific failure of LLMs (probabilistic vs. deterministic).
 
 - **The "Neuro-Symbolic" Solution**: We are positioning my HNSA as the bridge between these two worlds.
+
+# Notes for Machine Learning algorithms used:
+The primary machine learning algorithm used is the Graph Convolutional Network (GCN).
+The researchers employ this specific architecture to perform several key functions within their Hybrid Neuro-Symbolic Architecture (HNSA):
+- **Latent Manifold Alignment**: The GCN projects heterogeneous entities (socio-economic data from IBGE and academic metrics from CAPES) into a unified latent manifold to identify synergies.
+- **Semantic Link Discovery**: It learns semantic embeddings to discover "hidden" links between entities where explicit links are sparse or naming variations exist.
+- **Feature Vector Processing**: The network processes initial node feature vectors—such as GDP and Population for IBGE nodes, and Funding and H-Index for CAPES nodes—to determine similarity.
+- **Symbolic Grounding**: The GCN-validated subgraphs are used as a "factual anchor" to constrain the outputs of Large Language Models (LLMs), significantly reducing hallucination rates.
+
+Related Learning ParadigmsThe paper also references and utilizes other learning concepts and models:
+
+- **Large Language Models (LLMs)**: Used as the "Neural Interface" for natural language exploration and synthesis of verified data.
+- **Neuro-Symbolic AI**: The overarching framework that combines the probabilistic nature of neural networks with the deterministic logic of symbolic AI.
+- **Cosine Similarity**: Used within the embedding space to measure the strength of discovered semantic links
