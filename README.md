@@ -18,6 +18,10 @@ The HNSA operates in three distinct phases:
 1.  Mapping RDF-triples from [IBGE SIDRA](https://www.google.com/search?q=https://sidra.ibge.gov.br/) and [CAPES Open Data](https://dadosabertos.capes.gov.br/).
 2.  Injecting verified subgraphs into the LLM prompt to ensure 100% data traceability.
 
+## 📊 Comprehensive Workflow
+We provide a visual guide for the complete experimental reproduction process, from data acquisition to hallucination mitigation.
+<img width="1408" height="768" alt="image" src="https://github.com/user-attachments/assets/f1a6ee25-47f2-4ec8-90d5-86d2e9abffa8" />
+
 ## 📑 Methodology: 
 The Neuro-Symbolic Approach: 
 The system operates in two distinct phases:
